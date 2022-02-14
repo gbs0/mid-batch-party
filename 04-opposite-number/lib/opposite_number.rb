@@ -1,3 +1,3 @@
 def opposite(number)
- # Your code here!
+  # Your code here!
 end

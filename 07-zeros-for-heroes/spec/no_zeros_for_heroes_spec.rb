@@ -1,4 +1,4 @@
-require 'zeros_for_heroes'
+require 'no_zeros_for_heroes'
 
 describe "Take off zeros" do
 	it "from 1450 number" do
@@ -10,10 +10,14 @@ describe "Take off zeros" do
 	end
 
 	it "from 1050 number" do
-		expect(heroes(960000)).to eq(96)
+		expect(heroes(1050)).to eq(105)
 	end
 
-	it "from -1050 number" do
+  it "from -1050 number" do
 		expect(heroes(-1050)).to eq(-105)
+	end
+
+	it "from 998 number" do
+		expect(heroes(998)).to eq(998)
 	end
 end

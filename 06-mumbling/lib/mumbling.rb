@@ -1,3 +1,4 @@
-def accum(s)
+def accum(string)
 	# Your code here!
 end
+

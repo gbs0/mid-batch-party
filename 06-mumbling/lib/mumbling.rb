@@ -1,5 +1,3 @@
-require 'pry'
-
 def accum(string)
 	# Your code here!
 	result = ""

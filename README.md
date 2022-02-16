@@ -27,11 +27,11 @@ Já na próxima semana, **Rails** entrará de vez em nossas vidas, e com isso o 
 #### • 2º Desafios e Testes 💾
 - Os testes serão executados ao rodarem o **Rake**;
 
-- A equipe que cumprir todos o pré-requisitos de cada rodada de testes no Rake e finalizar primeiro ganhará **1 ponto**
+- A equipe que cumprir todos os pré-requisitos de cada um dos testes no Rake e finalizar primeiro ganhará **1 ponto**
 
 - Cada programador ou programadora se reveza durante os desafios;
 
-- Cada jogador que codou na rodada deverá sofrer as consequências das regras do jogo, tanto p/ perder ou ganhar, ou talvez não ganhar nem perder, apenas se divertir.
+- Cada jogador que codou na rodada deverá sofrer as consequências das regras do jogo, tanto p/ ganhar ou perder, ou talvez não ganhar nem perder, apenas se divertir.
 
 #### • 3º Marcando o ponto 🎉
 
@@ -63,7 +63,8 @@ O metodo receberá um `Array` de números.
 
 >  `[1,-4,7,12]` => 1 + 7 + 12 = 20
 
-> Nota: se não houver nada p/ somar, o resultado **default** terá de ser 0.
+
+> Nota: se não houver nada p/ somar, o resultado terá de ser **0**.
 
 ----
 
@@ -79,7 +80,10 @@ Considere `'a', 'e', 'i', 'o', 'u'` como as vogais desta challenge
 
 **Exemplo:**
 
->  `abracadabra` => 5 `myth` => 0
+>  `abracadabra` => 5 
+> `myth` => 0
+
+
 
 ----
 
@@ -90,43 +94,80 @@ Dado um número, retorne qual é seu oposto. Caso não seja um número, o result
 
 **Exemplo:**
 
-> ``1 => -1
-14 => -14
--34 => 34``
+> ``1 => -1``
+> ``14 => -14``
+> ``-34 => 34``
 
-> Nota: Verifique primeiro se o parametro que o método recebe é um **NÚMERO**
+
+> Nota: Verifique se o parametro que o método recebe é um **NÚMERO**
+
 
 ---
 
 
 ### 5º - Soma dos Restantes ➕
 
-Retorne a soma de todos os números da array exceto os seu valor máximo e valor minímo
+Retorne a soma de todos os números da array exceto os seu valor máximo e valor minímo.
 
 **Exemplo:**
 
-> ``
-[ 6, 2, 1, 8, 10 ] => 16
-[ 1, 1, 11, 2, 3 ] =>  6 
-``
+> ``[ 6, 2, 1, 8, 10 ] => 16``
+> ``[ 1, 1, 11, 2, 3 ] =>  6``
+
 
 > Nota: Caso algum número das extremidas se repita (valor minimo ou máximo), sua duplicata deve ser mantida.
+
 
 ---
 
 
-### 6º - Acumulador 
+### 6º - Acumulador 🔂
 
 Dessa vez, sem papo furado ou teoria, simplesmente olhe o exemplo abaixo e implemente a função `accum(string)`
 
 **Exemplo:**
 
-> ``accum("abcd") -> "A-Bb-Ccc-Dddd"
-accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-accum("cwAt") -> "C-Ww-Aaa-Tttt"
-``
+> ``accum("abcd") -> "A-Bb-Ccc-Dddd"``
+> ``accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"``
+> ``accum("cwAt") -> "C-Ww-Aaa-Tttt"``
 
-> Nota: O parametro string do método accum inclui apenas letras de a..z ou A..Z
+
+> Nota: O parametro do método `accum()` inclui apenas letras de a..z ou A..Z
+> Nota 2: Talvez seja necessario criar um metodo `repeat_letter(letter, index)`
+
 
 ---
 
+
+### 7º - Zeros não são para herois 🦸🏼‍♂️
+
+Números terminados em **0** são muito chatos! Eles podem ser divertidos no seu mundo, mas não aqui.
+
+Se livre deles! Mas somentes os que estarão ao final.
+
+> ``1450 -> 145``
+> ``960000 -> 96``
+> ``998 -> 998``
+> ``1050 -> 105``
+> ``-1050 -> -105``
+
+
+> Nota: Não se preocupe com um **0** sozinho. Ele não vai aparecer
+
+
+---
+
+### 8º - Embaralhando as letras 
+
+Escreva uma função que receba uma stirng de uma ou mais **palavras**, que retorne a mesma string, mas com todas as palavras com mais de cinco letras invertidas.
+
+**Exemplos:**
+
+> ``spinWords("Hey fellow warriors") => "Hey wollef sroirraw"``
+> ``spinWords("This is a test") => "This is a test"``
+> ``spinWords("This is another test") => "This is rehtona test"``
+
+> Nota:  As strings passadas consistirão apenas em letras e espaços.
+
+
+---

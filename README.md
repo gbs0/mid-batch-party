@@ -37,9 +37,13 @@ Já na próxima semana, **Rails** entrará de vez em nossas vidas, e com isso o 
 
 - A equipe que terminar o teste com êxito deve correr até a almofada com o desenho de uma gema mais próxima!
 
+<br>
+
+---
 
 ## Que os Desafios Comecem 🤖 !!
 
+<br/>
 
 ### 1º - Par ou Impar? 🙌
 
@@ -48,9 +52,13 @@ Escreva uma função em Ruby que receba um `Integer` como **parâmetro** e retor
 **Exemplo:**
 
 >  `2` => Even
+
 >  `3` => Odd
 
+<br/>
+
 ----
+<br/>
 
 ### 2º - Somatória de Positivos 🙌
 
@@ -63,11 +71,15 @@ O metodo receberá um `Array` de números.
 
 >  `[1,-4,7,12]` => 1 + 7 + 12 = 20
 
+<br/>
 
 > Nota: se não houver nada p/ somar, o resultado terá de ser **0**.
 
+<br/>
+
 ----
 
+<br/>
 
 ### 3º - Contador de Vogais 🙌
 
@@ -75,18 +87,19 @@ Retorne o número (contagem) final de vogais em uma string.
 
 Considere `'a', 'e', 'i', 'o', 'u'` como as vogais desta challenge
 
-> Nota: As strings do teste vão serão somente constituidas por letras!
-
 
 **Exemplo:**
 
 >  `abracadabra` => 5 
+
 > `myth` => 0
 
+<br/>
 
-
+> Nota: As strings do teste vão serão somente constituidas por letras!
 ----
 
+<br/>
 
 ### 4º - Números Opostos ↔️
 
@@ -95,15 +108,20 @@ Dado um número, retorne qual é seu oposto. Caso não seja um número, o result
 **Exemplo:**
 
 > ``1 => -1``
+
 > ``14 => -14``
+
 > ``-34 => 34``
 
+<br/>
 
 > Nota: Verifique se o parametro que o método recebe é um **NÚMERO**
 
+<br/>
 
 ---
 
+<br/>
 
 ### 5º - Soma dos Restantes ➕
 
@@ -112,14 +130,18 @@ Retorne a soma de todos os números da array exceto os seu valor máximo e valor
 **Exemplo:**
 
 > ``[ 6, 2, 1, 8, 10 ] => 16``
+
 > ``[ 1, 1, 11, 2, 3 ] =>  6``
 
+<br/>
 
 > Nota: Caso algum número das extremidas se repita (valor minimo ou máximo), sua duplicata deve ser mantida.
 
+<br/>
 
 ---
 
+<br/>
 
 ### 6º - Acumulador 🔂
 
@@ -128,16 +150,22 @@ Dessa vez, sem papo furado ou teoria, simplesmente olhe o exemplo abaixo e imple
 **Exemplo:**
 
 > ``accum("abcd") -> "A-Bb-Ccc-Dddd"``
+
 > ``accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"``
+
 > ``accum("cwAt") -> "C-Ww-Aaa-Tttt"``
 
+<br/>
 
 > Nota: O parametro do método `accum()` inclui apenas letras de a..z ou A..Z
+
 > Nota 2: Talvez seja necessario criar um metodo `repeat_letter(letter, index)`
 
+<br/>
 
 ---
 
+<br/>
 
 ### 7º - Zeros não são para herois 🦸🏼‍♂️
 
@@ -146,28 +174,42 @@ Números terminados em **0** são muito chatos! Eles podem ser divertidos no seu
 Se livre deles! Mas somentes os que estarão ao final.
 
 > ``1450 -> 145``
+
 > ``960000 -> 96``
+
 > ``998 -> 998``
+
 > ``1050 -> 105``
+
 > ``-1050 -> -105``
 
+<br/>
 
 > Nota: Não se preocupe com um **0** sozinho. Ele não vai aparecer
 
+<br/>
 
 ---
 
-### 8º - Embaralhando as letras 
+<br/>
+
+### 8º - Embaralhando as letras 🔡
 
 Escreva uma função que receba uma stirng de uma ou mais **palavras**, que retorne a mesma string, mas com todas as palavras com mais de cinco letras invertidas.
 
 **Exemplos:**
 
 > ``spinWords("Hey fellow warriors") => "Hey wollef sroirraw"``
+
 > ``spinWords("This is a test") => "This is a test"``
+
 > ``spinWords("This is another test") => "This is rehtona test"``
+
+<br/>
 
 > Nota:  As strings passadas consistirão apenas em letras e espaços.
 
+<br/>
 
 ---
+
